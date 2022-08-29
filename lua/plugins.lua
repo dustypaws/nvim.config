@@ -86,6 +86,11 @@ packer.startup(function(use)
         config = get_config('nvim-autopairs')
     })
 
+    use({
+        'numToStr/Comment.nvim',
+        config = get_config('Comment'),
+    })
+
     -- Language Plugins
 
     use 'neovim/nvim-lspconfig'

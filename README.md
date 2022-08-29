@@ -10,6 +10,7 @@ This cconfiguration is heavily inspired by [Allaman](https://github.com/Allaman/
 * [Bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 * [Lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 * [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
+* [Comment.nvim](https://github.com/numToStr/Comment.nvim)
 
 ### Package management
 * [Packer](https://github.com/wbthomason/packer.nvim)
