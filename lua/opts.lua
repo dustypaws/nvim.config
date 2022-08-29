@@ -12,9 +12,15 @@ opt.shortmess = opt.shortmess + "c"
 opt.lazyredraw = true 
 opt.undofile = true
 opt.undodir = fn.stdpath("data") .. "/undodir"
+opt.swapfile = false
+opt.backup = true
 opt.history = 1000
 opt.clipboard = "unnamedplus"
 opt.showmode = false
+opt.ttimeoutlen = 0
+opt.timeoutlen = 400
+opt.updatetime = 300
+opt.mouse = settings.mouse
 
 -- [[ Filetypes ]]
 opt.encoding = 'utf8'
