@@ -2,8 +2,11 @@
 
 This cconfiguration is heavily inspired by [Allaman](https://github.com/Allaman/nvim/).
 
+The Rust "IDE"-Build is mainly taken from "[Rust and Neovim - A Thorough Guide and Walkthrough](https://dev.to/rsdlt/rust-and-neovim-a-thorough-guide-and-walkthrough-554o)"
+
 ## Plugins used
 ### General stuff
+* [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 * [Telescope](https://github.com/nvim-telescope/telescope.nvim)
     * [telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim)
 * [Nvim-Autopairs](https://github.com/windwp/nvim-autopairs)
