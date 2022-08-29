@@ -14,6 +14,7 @@ The Rust "IDE"-Build is mainly taken from "[Rust and Neovim - A Thorough Guide a
 * [Lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 * [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
 * [Comment.nvim](https://github.com/numToStr/Comment.nvim)
+* [Neovim-Session-Manager](https://github.com/Shatur/neovim-session-manager)
 
 ### Package management
 * [Packer](https://github.com/wbthomason/packer.nvim)

@@ -95,6 +95,12 @@ packer.startup(function(use)
         'tpope/vim-fugitive'
     })
 
+    use ({
+        'Shatur/neovim-session-manager',
+        config = get_config('neovim-session-manager'),
+        requires = { 'nvim-lua/plenary.nvim' }
+    })
+
     -- Language Plugins
 
     use 'neovim/nvim-lspconfig'
