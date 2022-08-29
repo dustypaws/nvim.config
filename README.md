@@ -2,7 +2,7 @@
 
 This cconfiguration is heavily inspired by [Allaman](https://github.com/Allaman/nvim/).
 
-The Rust "IDE"-Build is mainly taken from "[Rust and Neovim - A Thorough Guide and Walkthrough](https://dev.to/rsdlt/rust-and-neovim-a-thorough-guide-and-walkthrough-554o)"
+The Rust "IDE"-Build is mainly taken from "[Rust and Neovim - A Thorough Guide and Walkthrough](https://dev.to/rsdlt/rust-and-neovim-a-thorough-guide-and-walkthrough-554o)" and also [Turning Neovim into a Full-Fledged Code Editor with Lua](https://mattermost.com/blog/turning-neovim-into-a-full-fledged-code-editor-with-lua/).
 
 ## Plugins used
 ### General stuff
