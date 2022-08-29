@@ -91,6 +91,10 @@ packer.startup(function(use)
         config = get_config('Comment'),
     })
 
+    use({
+        'tpope/vim-fugitive'
+    })
+
     -- Language Plugins
 
     use 'neovim/nvim-lspconfig'
