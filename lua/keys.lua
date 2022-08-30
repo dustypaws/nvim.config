@@ -52,3 +52,13 @@ vim.keymap.set('n', '<space>e', vim.diagnostic.open_float, nor_opts)
 vim.keymap.set('n', ',n', vim.diagnostic.goto_prev, nor_opts)
 vim.keymap.set('n', ',m', vim.diagnostic.goto_next, nor_opts)
 vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist, nor_opts)
+
+-- trouble
+vim.cmd([[
+nnoremap <leader>xx <cmd>TroubleToggle<cr>
+nnoremap <leader>xw <cmd>TroubleToggle lsp_workspace_diagnostics<cr>
+nnoremap <leader>xd <cmd>TroubleToggle lsp_document_diagnostics<cr>
+nnoremap <leader>xq <cmd>TroubleToggle quickfix<cr>
+nnoremap <leader>xl <cmd>TroubleToggle loclist<cr>
+nnoremap gR <cmd>TroubleToggle lsp_references<cr>
+]])

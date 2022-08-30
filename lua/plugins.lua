@@ -108,9 +108,16 @@ packer.startup(function(use)
     -- Language Plugins
 
     use 'neovim/nvim-lspconfig'
+
     use({
         'simrat39/rust-tools.nvim',
         config = get_config('rust-tools')
+    })
+
+    use({
+        "folke/lsp-trouble.nvim",
+        requires = "kyazdani42/nvim-web-devicons",
+        config = get_config('trouble')
     })
 
     -- Completion framework:
