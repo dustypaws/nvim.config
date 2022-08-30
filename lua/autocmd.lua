@@ -7,6 +7,14 @@ api.nvim_create_autocmd(
   { command = [[if winnr('$') == 1 && bufname() == 'NvimTree_' . tabpagenr() | quit | endif]] }
 )
 
+-- Format buffer on save
+api.nvim_create_autocmd(
+    "BufWritePre", {
+        pattern = "*",
+        command = [[lua vim.lsp.buf.formatting_sync()]]
+    }
+)
+
 if settings.packer_auto_sync then
   -- source plugins.lua and run PackerSync on save
   local sync_packer = function()
