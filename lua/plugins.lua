@@ -101,6 +101,10 @@ packer.startup(function(use)
         requires = { 'nvim-lua/plenary.nvim' }
     })
 
+    use({
+        'airblade/vim-gitgutter'
+    })
+
     -- Language Plugins
 
     use 'neovim/nvim-lspconfig'
