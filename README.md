@@ -27,3 +27,11 @@ The Rust "IDE"-Build is mainly taken from "[Rust and Neovim - A Thorough Guide a
 ### Language specific
 * [Rust Tools](https://github.com/simrat39/rust-tools.nvim)
 
+## Things worth cosidering 🤔
+* [Fidget](https://github.com/j-hui/fidget.nvim)
+    * Displays the LSP status ass a popup
+* [Gitsigns](https://github.com/lewis6991/gitsigns.nvim)
+    * An alternative to `vim-gitgutter`
+* [LSPSaga](https://github.com/glepnir/lspsaga.nvim)
+    * A drop-in replaacement for vim-lsp
+
