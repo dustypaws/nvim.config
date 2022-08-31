@@ -148,6 +148,10 @@ packer.startup(function(use)
         config = get_config('vimspector'),
     })
 
+    use({
+        'EdenEast/nightfox.nvim',
+        config = get_config('nightfox')
+    })
     if packer_bootstrap then
     require('packer').sync()
   end

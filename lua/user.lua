@@ -1,6 +1,6 @@
 local U = {}
 
-U.theme = "dracula"
+U.theme = "nightfox"
 
 U.number = true
 U.relativenumber = true
