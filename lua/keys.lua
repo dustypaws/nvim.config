@@ -13,7 +13,7 @@ map('n', '<S-TAB>', ':BufferLineCyclePrev<CR>', default_opt)
 map('n', '<leader>c', ':bwipeout<CR>', default_opt)
 
 -- NvimTree
-map('n', '<leader>n', ':NvimTreeToggle<CR>', default_opt)
+map('n', '<leader>N', ':NvimTreeToggle<CR>', default_opt)
 
 -- Telescope
 map('n', '<leader>ff', ':Telescope find_files<CR>', default_opt)
@@ -61,4 +61,9 @@ nnoremap <leader>xd <cmd>TroubleToggle lsp_document_diagnostics<cr>
 nnoremap <leader>xq <cmd>TroubleToggle quickfix<cr>
 nnoremap <leader>xl <cmd>TroubleToggle loclist<cr>
 nnoremap gR <cmd>TroubleToggle lsp_references<cr>
+]])
+
+-- Rust-Tools
+vim.cmd([[
+nnoremap <silent><C-k> <cmd>RustHoverActions<cr>
 ]])
