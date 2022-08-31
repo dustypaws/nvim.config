@@ -42,7 +42,6 @@ packer.startup(function(use)
 
     -- Plugins here
 
-    use ({ 'Mofiqul/dracula.nvim' })
 
     use({
         'kyazdani42/nvim-tree.lua',
@@ -105,6 +104,16 @@ packer.startup(function(use)
         'airblade/vim-gitgutter'
     })
 
+    use({
+        'j-hui/fidget.nvim',
+        config = get_config('fidget')
+    })
+
+    use({
+        'simrat39/symbols-outline.nvim',
+        config = get_config('symbols-outline'),
+    })
+
     -- Language Plugins
 
     use 'neovim/nvim-lspconfig'
@@ -148,10 +157,15 @@ packer.startup(function(use)
         config = get_config('vimspector'),
     })
 
+    -- Themes 
+
+    use ({ 'Mofiqul/dracula.nvim' })
+
     use({
         'EdenEast/nightfox.nvim',
         config = get_config('nightfox')
     })
+    -- Plugins END
     if packer_bootstrap then
     require('packer').sync()
   end
