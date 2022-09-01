@@ -15,6 +15,7 @@ The Rust "IDE"-Build is mainly taken from "[Rust and Neovim - A Thorough Guide a
 * [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
 * [Comment.nvim](https://github.com/numToStr/Comment.nvim)
 * [Neovim-Session-Manager](https://github.com/Shatur/neovim-session-manager)
+* [Fidget](https://github.com/j-hui/fidget.nvim)
 
 ### Package management
 * [Packer](https://github.com/wbthomason/packer.nvim)
@@ -28,8 +29,6 @@ The Rust "IDE"-Build is mainly taken from "[Rust and Neovim - A Thorough Guide a
 * [Rust Tools](https://github.com/simrat39/rust-tools.nvim)
 
 ## Things worth cosidering 🤔
-* [Fidget](https://github.com/j-hui/fidget.nvim)
-    * Displays the LSP status ass a popup
 * [Gitsigns](https://github.com/lewis6991/gitsigns.nvim)
     * An alternative to `vim-gitgutter`
 * [LSPSaga](https://github.com/glepnir/lspsaga.nvim)
