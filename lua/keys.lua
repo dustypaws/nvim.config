@@ -11,6 +11,8 @@ map('i', 'kj', '<ESC>', default_opt)
 map('n', '<TAB>', ':BufferLineCycleNext<CR>', default_opt)
 map('n', '<S-TAB>', ':BufferLineCyclePrev<CR>', default_opt)
 map('n', '<leader>c', ':bwipeout<CR>', default_opt)
+map('n', '<leader><leader>n', ':BufferLineMovePrev<CR>', default_opt)
+map('n', '<leader><leader>m', ':BufferLineMoveNext<CR>', default_opt)
 
 -- NvimTree
 map('n', '<leader>N', ':NvimTreeToggle<CR>', default_opt)
