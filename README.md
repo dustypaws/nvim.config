@@ -23,14 +23,17 @@ The Rust "IDE"-Build is mainly taken from "[Rust and Neovim - A Thorough Guide a
     * ...Language servers, linters, etc. are installed via Mason.
 
 ### Completion 
+* [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)
 * [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
 
-### Language specific
+### Language "specific"
 * [Rust Tools](https://github.com/simrat39/rust-tools.nvim)
+* [symbols-outline.nvin](https://github.com/simrat39/symbols-outline.nvim)
+* [lsp-trouble.nvim](https://github.com/simrat39/lsp-trouble.nvim)
 
 ## Things worth cosidering 🤔
 * [Gitsigns](https://github.com/lewis6991/gitsigns.nvim)
     * An alternative to `vim-gitgutter`
 * [LSPSaga](https://github.com/glepnir/lspsaga.nvim)
-    * A drop-in replaacement for vim-lsp
+    * A drop-in replacement for vim-lsp
 
