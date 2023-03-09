@@ -135,7 +135,7 @@ packer.startup(function(use)
 
     use({
         'simrat39/rust-tools.nvim',
-        -- config = get_config('rust-tools')
+        config = get_config('rust-tools')
     })
 
     use({

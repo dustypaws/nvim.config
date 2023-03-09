@@ -1,6 +1,6 @@
 local U = {}
 
-U.theme = "dayfox"
+U.theme = "nordfox"
 
 U.number = true
 U.relativenumber = true
