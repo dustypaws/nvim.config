@@ -44,8 +44,8 @@ packer.startup(function(use)
 
 
     use({
-        'kyazdani42/nvim-tree.lua',
-        requires = 'kyazdani42/nvim-web-devicons',
+        'nvim-tree/nvim-tree.lua',
+        requires = 'nvim-tree/nvim-web-devicons',
         config = get_config('nvim-tree'),
     })
 
@@ -63,14 +63,14 @@ packer.startup(function(use)
 
     use({
         'nvim-lualine/lualine.nvim',
-        requires = { 'kyazdani42/nvim-web-devicons', opt = true },
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true },
         config = get_config('lualine')
     })
 
     use({
         'akinsho/bufferline.nvim',
-        tag = "v2.*",
-        requires = 'kyazdani42/nvim-web-devicons',
+        -- tag = "v2.*",
+        requires = 'nvim-tree/nvim-web-devicons',
         config = get_config('bufferline')
     })
 
@@ -95,11 +95,13 @@ packer.startup(function(use)
     })
 
     use({
-        'airblade/vim-gitgutter'
+        'airblade/vim-gitgutter',
+        branch = 'main'
     })
 
     use({
         'j-hui/fidget.nvim',
+        branch = 'legacy',
         config = get_config('fidget')
     })
 
@@ -140,7 +142,7 @@ packer.startup(function(use)
 
     use({
         "folke/lsp-trouble.nvim",
-        requires = "kyazdani42/nvim-web-devicons",
+        requires = "nvim-tree/nvim-web-devicons",
         config = get_config('trouble')
     })
 
