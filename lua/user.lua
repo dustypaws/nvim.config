@@ -8,6 +8,4 @@ U.mouse = "nvi"
 
 U.cmdheight = 0
 
-U.packer_auto_sync = true
-
 return U

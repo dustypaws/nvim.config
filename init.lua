@@ -2,9 +2,9 @@
 vim.g.mapleader = ","
 
 -- IMPORTS
+require('config.lazy')
 require('vars')
 require('opts')
 require('keys')
-require('plugins')
--- require('lsp')
 require('autocmd')
+require('user')

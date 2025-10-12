@@ -24,12 +24,12 @@ opt.mouse = settings.mouse
 
 -- [[ Filetypes ]]
 opt.encoding = 'utf8'
-opt.fileencoding = 'utf8'
+-- opt.fileencoding = 'utf8'
 
 -- [[ Theme ]]
 opt.syntax = "ON"
 opt.termguicolors = true
-vim.cmd(string.format([[colorscheme %s]], settings.theme))
+-- vim.cmd(string.format([[colorscheme %s]], settings.theme))
 
 -- [[ Search ]]
 opt.ignorecase = true
